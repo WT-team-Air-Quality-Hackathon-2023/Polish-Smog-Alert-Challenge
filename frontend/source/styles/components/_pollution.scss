@@ -1,0 +1,32 @@
+.pollution {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.pollution-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pollution-value {
+    color: white;
+    font-size: 28px;
+}
+
+.pollution-text {
+    padding-top: 16px;
+    color: white;
+    font-size: 24px;
+}

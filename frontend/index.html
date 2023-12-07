@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<title>Air pollution app</title>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="source/styles/vendor/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="source/styles/main.scss" />
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+	<div class="header">Air Pollution App</div>
+	<div class="location">
+		<div>
+			<span class="material-symbols-outlined">location_on</span>
+		</div>
+		<span class="location-text">Location Unknown</span>
+	</div>
+	<div class="lungs">
+		<div class="lungs-container">
+			<img class="lung lung--white" src="/assets/images/lungs-white.png">
+			<img class="lung lung--dark" src="/assets/images/lungs-dark.png">
+			<div class="pollution">
+				<div class="pollution-circle">
+					<div class="pollution-value">0</div>
+				</div>
+				<div class="pollution-text">Current AQI Index</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="module" src="source/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+	"name": "Air Pollution App",
+	"version": "1.0.0",
+	"description": "",
+	"source": "index.html",
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.10.3",
+		"parcel": "^2.10.3"
+	},
+	"repository": {
+		"type": "",
+		"url": ""
+	},
+	"scripts": {
+		"build": "parcel build --public-url assets",
+		"dev": "parcel"
+	},
+	"engines": {
+		"node": "18.16.0",
+		"npm": "9.5.1"
+	},
+	"author": "",
+	"license": "MIT",
+	"readme": ""
+}
